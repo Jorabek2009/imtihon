@@ -1,0 +1,396 @@
+body{
+    color: white;
+    font-family: inter;
+    p:hover{
+        color: rgb(9, 242, 246);
+    }
+    b:hover{
+        color: rgb(9, 242, 246);
+    }
+    h1:hover{
+        color: rgb(9, 242, 246);
+    }
+    h2:hover{
+        color: rgb(9, 242, 246);
+    }
+    h3:hover{
+        color: rgb(9, 242, 246);
+    }
+}
+.headerr{
+    nav{
+        background-color:rgba(1, 82, 168, 1);
+        display: flex;
+        height: 80px;
+        p{
+            font-size: 19px;
+            margin-top: 27px;
+        }
+        .wel{
+            margin-left: 250px;
+            margin-top: 4px;
+        }
+        .phon{
+            display: flex;
+            margin-left: 300px;
+            img{
+                width: 40px;
+                height: 40px;
+                margin-top: 20px;
+            }
+            img:hover{
+                border-radius: 100%;
+                border: 1px solid blue;
+            }
+            p{
+                margin-left: 10px;
+            }
+        }
+        .icon{
+            display: flex;
+            margin-left: 40px;
+            img{
+                width: 40px;
+                height: 40px;
+                margin-top: 20px;
+            }
+            img:hover{
+                border-radius: 100%;
+                border: 1px solid blue;
+            }
+            p{
+                margin-left: 10px;
+                margin-top: 27px;
+            }
+        }
+       
+    }
+    main{
+        display: flex;
+        margin-top: 50px;
+        margin-left: 250px;
+        width: 1200px;
+        height: 74px;
+        font-size: 18px;
+        .bir{
+            img{
+             margin-right: 60px;
+            }
+        }
+        .ikki{
+            ul{
+                display: flex;
+                justify-content: space-around;
+                width: 580px;
+                text-decoration: none;
+                list-style: none;
+                color: black; 
+                margin-top: 21px;
+                li:hover{
+                    text-decoration: underline;
+
+                }
+           }
+        }
+        .uch{
+            button{
+                width: 200px;
+                height: 60px;
+                margin-top: 7px;
+                background-color: aqua;
+                color: black; 
+                margin-left: 63px;
+                border: 0;
+                font-size: 19px;
+            }
+            button:hover{
+                border: 2px solid rgb(14, 155, 190);
+            }
+        }
+    }
+    aside{
+        img{
+        width: 1400px;
+        height: 220px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    }
+    .doktrr{
+        color: black;
+      .top{
+        display: flex;
+        margin-top: 100px;
+        .birr{
+            margin-left: 100px;
+            
+        }
+        .bir{
+            background-color: rgb(220, 226, 226);
+            padding: 35px 20px;
+            width: 250px;
+            height: 238px;
+            margin-left: 30px;
+            p{
+                color: grey;
+            }
+            .bottom{
+                display: flex;
+                b{
+                    margin-right: 15px;
+                }
+            }
+           }
+           .ikki{
+            img{
+                height: 310px;
+                width: 300px;
+            }
+           }
+      }
+    
+    .bottommm{
+        display: flex;
+        margin-top: 50px;
+        div:first-child{
+            margin-left: 130px;
+        }
+        .bir{
+            background-color: rgb(220, 226, 226);
+            padding: 35px 20px;
+            width: 250px;
+            height: 238px;
+            margin-left: 30px;
+            p{
+                color: grey;
+            }
+            .bottom{
+                display: flex;
+                b{
+                    margin-right: 15px;
+                }
+            }
+           }
+           .ikki{
+            img{
+                height: 310px;
+                width: 300px;
+            }
+           }
+      }
+    }
+    article{
+        background-image: url(img/background.png);
+        background-repeat: no-repeat;
+        margin-top: 70px;
+        margin-left: 140px;
+        height: 600px;
+        padding-top: 150px;
+        
+        div{
+            width: 300px;
+            height: 180px;
+            text-align: center;
+            padding: 30px 20px;
+            color: black;
+            background-color: white;
+            border: 1px solid blue;
+            margin-left: 450px;
+           p{
+            margin-top: 30px;
+           }
+           h1{
+            margin-top: 20px;
+           }
+        }
+        div:hover{
+            border: 2px solid blue;
+        }
+    }
+}
+.footerr{
+    main{
+        background-color: rgba(1, 82, 168, 1);
+        margin-top: -100;
+        padding-top: 120px;
+        nav{
+            display: flex;
+            margin-left: 250px;
+            button{
+                background-color: rgba(1, 82, 168, 1);
+                border: 1px solid white;
+                color: white;
+            }
+            .ikki{
+                button{
+                    width: 170px;
+                    height: 55px;
+                    font-size: 17px;
+                    background-color: aqua;
+                    border: 0;
+                    margin-left: 600px;
+                    margin-top: 10px;
+                }
+                button:hover{
+                    border: 2px solid blue;
+                }
+            }
+        }
+    }
+    section{
+        display: flex;
+        margin-top: 50px;
+        div:first-child{
+            margin-left: 170px;
+        }
+        .bir{
+            padding: 25px;
+            background-color: rgb(25, 25, 171);
+            width: 300px;
+            text-align: center;
+            margin-left: 50px;
+            i{
+                font-size: 30px;
+                margin-left: 20px;
+            }
+        }
+        img:hover{
+            border: 2px solid white;
+        }
+        
+    }
+    .chiziq{
+        width: 1150px;
+        height: 3px;
+        background-color: rgb(0, 132, 255);
+        margin: 80px 170px;
+    }
+    aside{
+        display: flex;
+        margin-bottom: 50px;
+        .bir{
+            text-align: center;
+            width: 210px;
+            margin-left: 140px;
+            h1{
+                font-size: 55px;
+                margin-bottom: 20px;
+            }
+            h2{
+                border: 1px solid rgb(22, 94, 210);
+                margin-top: -10px;
+            }
+        }
+        .ikki{
+            text-align: center;
+            width: 210px;
+            margin-left: 50px;
+            h1{
+                font-size: 55px;
+                margin-bottom: 20px;
+            }
+            h2{
+                border: 1px solid rgb(22, 94, 210);
+                margin-top: -10px;
+            }
+        }
+        .uch{
+            text-align: center;
+            width: 210px;
+            margin-left: 50px;
+            h1{
+                font-size: 55px;
+                margin-bottom: 20px;
+            }
+            h2{
+                border: 1px solid rgb(22, 94, 210);
+                margin-top: -10px;
+            }
+        }
+        .tort{
+            text-align: center;
+            width: 210px;
+            margin-left: 50px;
+            h1{
+                font-size: 55px;
+                margin-bottom: 20px;
+            }
+            h2{
+                border: 1px solid rgb(22, 94, 210);
+                margin-top: -10px;
+            }
+        }
+        .besh{
+            text-align: center;
+            width: 210px;
+            margin-left: 50px;
+            h1{
+                font-size: 55px;
+                margin-bottom: 20px;
+            }
+            h2{
+                border: 1px solid rgb(22, 94, 210);
+                margin-top: -10px;
+                width: 180px;
+            }
+        }
+    }
+
+}
+.bottomm{
+    background-color: rgb(193, 181, 181);
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+    nav{
+        display: flex;
+        img{
+            height: 50px;
+            margin-left: 40px;
+        }
+        div{
+            display: flex;
+            i{
+                color: aqua;
+                font-size: 25px;
+                margin-right: 20px;
+                margin-left: 20px;
+                margin-top: 12px;
+            }
+            .fa-instagram{
+                margin-left: 40px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+    div:first-child{
+        margin-left: 380px;
+    }
+}
+.headd{
+    display: flex;
+    margin-left: -300px;
+    margin-bottom: 70px;
+    div{
+        margin-left: 60px;
+        h1{
+            width: 400px;
+        }
+        input{
+            width: 220px;
+            height: 50px;
+            font-size: 18px;
+            padding-left: 20px;
+        }
+        button{
+            width: 150px;
+            height: 45px;
+            background-color: blue;
+            color: white;
+            margin-top: 15px;
+            border: 1px solid rgb(160, 169, 169);
+        }
+    }
+}

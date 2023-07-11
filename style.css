@@ -1,0 +1,375 @@
+body {
+  color: white;
+  font-family: inter;
+}
+body p:hover {
+  color: rgb(9, 242, 246);
+}
+body b:hover {
+  color: rgb(9, 242, 246);
+}
+body h1:hover {
+  color: rgb(9, 242, 246);
+}
+body h2:hover {
+  color: rgb(9, 242, 246);
+}
+body h3:hover {
+  color: rgb(9, 242, 246);
+}
+
+.headerr nav {
+  background-color: rgb(1, 82, 168);
+  display: flex;
+  height: 80px;
+}
+.headerr nav p {
+  font-size: 19px;
+  margin-top: 27px;
+}
+.headerr nav .wel {
+  margin-left: 250px;
+  margin-top: 4px;
+}
+.headerr nav .phon {
+  display: flex;
+  margin-left: 300px;
+}
+.headerr nav .phon img {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+.headerr nav .phon img:hover {
+  border-radius: 100%;
+  border: 1px solid blue;
+}
+.headerr nav .phon p {
+  margin-left: 10px;
+}
+.headerr nav .icon {
+  display: flex;
+  margin-left: 40px;
+}
+.headerr nav .icon img {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+.headerr nav .icon img:hover {
+  border-radius: 100%;
+  border: 1px solid blue;
+}
+.headerr nav .icon p {
+  margin-left: 10px;
+  margin-top: 27px;
+}
+.headerr main {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 1200px;
+  height: 74px;
+  font-size: 18px;
+}
+.headerr main .bir img {
+  margin-right: 60px;
+}
+.headerr main .ikki ul {
+  display: flex;
+  justify-content: space-around;
+  width: 580px;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  margin-top: 21px;
+}
+.headerr main .ikki ul li:hover {
+  text-decoration: underline;
+}
+.headerr main .uch button {
+  width: 200px;
+  height: 60px;
+  margin-top: 7px;
+  background-color: aqua;
+  color: black;
+  margin-left: 63px;
+  border: 0;
+  font-size: 19px;
+}
+.headerr main .uch button:hover {
+  border: 2px solid rgb(14, 155, 190);
+}
+.headerr aside img {
+  width: 1400px;
+  height: 220px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.headerr .doktrr {
+  color: black;
+}
+.headerr .doktrr .top {
+  display: flex;
+  margin-top: 100px;
+}
+.headerr .doktrr .top .birr {
+  margin-left: 100px;
+}
+.headerr .doktrr .top .bir {
+  background-color: rgb(220, 226, 226);
+  padding: 35px 20px;
+  width: 250px;
+  height: 238px;
+  margin-left: 30px;
+}
+.headerr .doktrr .top .bir p {
+  color: grey;
+}
+.headerr .doktrr .top .bir .bottom {
+  display: flex;
+}
+.headerr .doktrr .top .bir .bottom b {
+  margin-right: 15px;
+}
+.headerr .doktrr .top .ikki img {
+  height: 310px;
+  width: 300px;
+}
+.headerr .doktrr .bottommm {
+  display: flex;
+  margin-top: 50px;
+}
+.headerr .doktrr .bottommm div:first-child {
+  margin-left: 130px;
+}
+.headerr .doktrr .bottommm .bir {
+  background-color: rgb(220, 226, 226);
+  padding: 35px 20px;
+  width: 250px;
+  height: 238px;
+  margin-left: 30px;
+}
+.headerr .doktrr .bottommm .bir p {
+  color: grey;
+}
+.headerr .doktrr .bottommm .bir .bottom {
+  display: flex;
+}
+.headerr .doktrr .bottommm .bir .bottom b {
+  margin-right: 15px;
+}
+.headerr .doktrr .bottommm .ikki img {
+  height: 310px;
+  width: 300px;
+}
+.headerr article {
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  margin-left: 140px;
+  height: 600px;
+  padding-top: 150px;
+}
+.headerr article div {
+  width: 300px;
+  height: 180px;
+  text-align: center;
+  padding: 30px 20px;
+  color: black;
+  background-color: white;
+  border: 1px solid blue;
+  margin-left: 450px;
+}
+.headerr article div p {
+  margin-top: 30px;
+}
+.headerr article div h1 {
+  margin-top: 20px;
+}
+.headerr article div:hover {
+  border: 2px solid blue;
+}
+
+.footerr main {
+  background-color: rgb(1, 82, 168);
+  margin-top: -100;
+  padding-top: 120px;
+}
+.footerr main nav {
+  display: flex;
+  margin-left: 250px;
+}
+.footerr main nav button {
+  background-color: rgb(1, 82, 168);
+  border: 1px solid white;
+  color: white;
+}
+.footerr main nav .ikki button {
+  width: 170px;
+  height: 55px;
+  font-size: 17px;
+  background-color: aqua;
+  border: 0;
+  margin-left: 600px;
+  margin-top: 10px;
+}
+.footerr main nav .ikki button:hover {
+  border: 2px solid blue;
+}
+.footerr section {
+  display: flex;
+  margin-top: 50px;
+}
+.footerr section div:first-child {
+  margin-left: 170px;
+}
+.footerr section .bir {
+  padding: 25px;
+  background-color: rgb(25, 25, 171);
+  width: 300px;
+  text-align: center;
+  margin-left: 50px;
+}
+.footerr section .bir i {
+  font-size: 30px;
+  margin-left: 20px;
+}
+.footerr section img:hover {
+  border: 2px solid white;
+}
+.footerr .chiziq {
+  width: 1150px;
+  height: 3px;
+  background-color: rgb(0, 132, 255);
+  margin: 80px 170px;
+}
+.footerr aside {
+  display: flex;
+  margin-bottom: 50px;
+}
+.footerr aside .bir {
+  text-align: center;
+  width: 210px;
+  margin-left: 140px;
+}
+.footerr aside .bir h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.footerr aside .bir h2 {
+  border: 1px solid rgb(22, 94, 210);
+  margin-top: -10px;
+}
+.footerr aside .ikki {
+  text-align: center;
+  width: 210px;
+  margin-left: 50px;
+}
+.footerr aside .ikki h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.footerr aside .ikki h2 {
+  border: 1px solid rgb(22, 94, 210);
+  margin-top: -10px;
+}
+.footerr aside .uch {
+  text-align: center;
+  width: 210px;
+  margin-left: 50px;
+}
+.footerr aside .uch h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.footerr aside .uch h2 {
+  border: 1px solid rgb(22, 94, 210);
+  margin-top: -10px;
+}
+.footerr aside .tort {
+  text-align: center;
+  width: 210px;
+  margin-left: 50px;
+}
+.footerr aside .tort h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.footerr aside .tort h2 {
+  border: 1px solid rgb(22, 94, 210);
+  margin-top: -10px;
+}
+.footerr aside .besh {
+  text-align: center;
+  width: 210px;
+  margin-left: 50px;
+}
+.footerr aside .besh h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.footerr aside .besh h2 {
+  border: 1px solid rgb(22, 94, 210);
+  margin-top: -10px;
+  width: 180px;
+}
+
+.bottomm {
+  background-color: rgb(193, 181, 181);
+  color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.bottomm nav {
+  display: flex;
+}
+.bottomm nav img {
+  height: 50px;
+  margin-left: 40px;
+}
+.bottomm nav div {
+  display: flex;
+}
+.bottomm nav div i {
+  color: aqua;
+  font-size: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+.bottomm nav div .fa-instagram {
+  margin-left: 40px;
+}
+.bottomm nav div p {
+  font-size: 18px;
+}
+.bottomm div:first-child {
+  margin-left: 380px;
+}
+
+.headd {
+  display: flex;
+  margin-left: -300px;
+  margin-bottom: 70px;
+}
+.headd div {
+  margin-left: 60px;
+}
+.headd div h1 {
+  width: 400px;
+}
+.headd div input {
+  width: 220px;
+  height: 50px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.headd div button {
+  width: 150px;
+  height: 45px;
+  background-color: blue;
+  color: white;
+  margin-top: 15px;
+  border: 1px solid rgb(160, 169, 169);
+}/*# sourceMappingURL=style.css.map */
